@@ -17,7 +17,7 @@ serializer = URLSafeTimedSerializer(app.config['SECRET_KEY'])
 
 server=smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
-server.login('ankity19072003@gmail.com','pyfn laci bmah zzao')
+server.login('YOUR MAIL','YOUR PASSWORD')
 
 
 def generate_verification_token(email):
@@ -31,7 +31,7 @@ def send_verification_email(email, token):
     verification_link = url_for('verify_email', token=token, _external=True)
     # print(verification_link)
     to_mail=email
-    from_mail='ankity19072003@gmail.com'
+    from_mail='YOUR MAIL'
     msg=EmailMessage()
     msg['Subject']='VERIFICATION MAIL'
     msg['From']=from_mail

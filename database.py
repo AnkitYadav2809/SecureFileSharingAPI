@@ -23,7 +23,7 @@ class File(Base):
 
 # Database connection setup
 def get_database_session():
-    engine = create_engine('postgresql://postgres:justchill@localhost/fileSharingAPI')
+    engine = create_engine('postgresql://<username>:<password>@localhost/<database_name>')
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     return Session()
