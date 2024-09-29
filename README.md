@@ -5,11 +5,11 @@
 ## Technologies Used
 
 - **Flask**: Web framework for building the API
-- **Flask-Mail**: For sending email verifications
+- **SMTP**: For sending email verifications
 - **Werkzeug**: For secure filename handling
 - **JWT**: For user authentication and authorization
 - **SQLAlchemy**: ORM for database interaction
-- **PostgreSQL/MariaDB**: Database management system (adjust based on your choice)
+- **PostgreSQL**: Database management system (adjust based on your choice)
 
 ## Features
 
