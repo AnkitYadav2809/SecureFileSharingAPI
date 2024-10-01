@@ -92,7 +92,7 @@ Based on the README file structure you provided, here's how the API endpoints ca
        {
          "message": "Login successful",
          "token": "<JWT token>",
-         "user_id":<user_id>
+         "user_id": <user_id>
          
        }
        ```
@@ -196,7 +196,6 @@ Based on the README file structure you provided, here's how the API endpoints ca
              "file_name": "example.pptx",
              "uploaded_by": "username"
            },
-           ...
          ],
          "message": "Files retrieved successfully"
        }
