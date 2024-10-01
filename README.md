@@ -90,8 +90,10 @@ Based on the README file structure you provided, here's how the API endpoints ca
      - **Success**: 
        ```json
        {
+         "message": "Login successful",
          "token": "<JWT token>",
-         "message": "Login successful"
+         "user_id":<user_id>
+         
        }
        ```
      - **Failure**:
@@ -116,7 +118,7 @@ Based on the README file structure you provided, here's how the API endpoints ca
      - **Success**: 
        ```json
        {
-         "message": "Signup successful, please verify your email"
+         "message": "Signup successful, verification email sent!"
        }
        ```
      - **Failure**:
